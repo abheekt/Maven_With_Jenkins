@@ -35,7 +35,7 @@ public class TestGreeter {
   }
 
   @Test
-  public void greetShouldIncludeGreetingPhrase() {
+  public void greetShouldIncludeGreetingPhraseFromAbheek() {
     String someone = "World, Thanks for teaching me DevOps and Maven";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
